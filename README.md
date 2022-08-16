@@ -17,6 +17,5 @@
 
 ## FAQ
 1. 使用 steam 的 `验证游戏文件完整性` 功能,可恢复你的文件为最新的正版文件.
-2. 你也可以从 [Release页面](https://github.com/peaceshi/Wind3/releases) 直接下载压缩包跳过以上 1-6 步骤.
-但是此压缩包内 `hpatchz.exe` 为64位程序, 仅支持64位Windows系统.
+2. 你也可以从 [Release页面](https://github.com/peaceshi/Wind3/releases).直接下载. **必须运行patch.bat**
 3. **请确认目录内必须存在 WindConfig.exe.config 文件, 否则 WindConfig.exe 无法正常运行**
