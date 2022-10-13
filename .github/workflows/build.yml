@@ -1,0 +1,15 @@
+name: build-patch
+on: [push, pull_request]
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+    - uses: actions/checkout@v3
+    - name: build
+      working-directory: ${{github.workspace}}
+      shell: cmd
+      run: call create-sfx.bat
+    - uses: actions/upload-artifact@v3
+      with:
+        name: Wind3Patch
+        path: Wind3Patch.exe
